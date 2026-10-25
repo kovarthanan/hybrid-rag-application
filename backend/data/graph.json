@@ -1,0 +1,2823 @@
+{
+ "sig": "2f2f544eeea2d440d3352b5ccc004a2b62c10d69f21e18cd10cb6d9f3765fafb",
+ "nodes": {
+  "next js": {
+   "label": "Next.js",
+   "type": "technology",
+   "chunk_ids": [
+    0,
+    9
+   ]
+  },
+  "tailwind css": {
+   "label": "Tailwind CSS",
+   "type": "technology",
+   "chunk_ids": [
+    0
+   ]
+  },
+  "react query": {
+   "label": "React Query",
+   "type": "technology",
+   "chunk_ids": [
+    0
+   ]
+  },
+  "zustand": {
+   "label": "Zustand",
+   "type": "technology",
+   "chunk_ids": [
+    0
+   ]
+  },
+  "hls js": {
+   "label": "HLS.js",
+   "type": "technology",
+   "chunk_ids": [
+    0
+   ]
+  },
+  "html5 audio": {
+   "label": "HTML5 Audio",
+   "type": "technology",
+   "chunk_ids": [
+    0
+   ]
+  },
+  "web audio api": {
+   "label": "Web Audio API",
+   "type": "technology",
+   "chunk_ids": [
+    0
+   ]
+  },
+  "oauth2": {
+   "label": "OAuth2",
+   "type": "technology",
+   "chunk_ids": [
+    0
+   ]
+  },
+  "node js": {
+   "label": "Node.js",
+   "type": "technology",
+   "chunk_ids": [
+    0
+   ]
+  },
+  "typescript": {
+   "label": "TypeScript",
+   "type": "technology",
+   "chunk_ids": [
+    0
+   ]
+  },
+  "nestjs": {
+   "label": "NestJS",
+   "type": "technology",
+   "chunk_ids": [
+    0
+   ]
+  },
+  "rest": {
+   "label": "REST",
+   "type": "technology",
+   "chunk_ids": [
+    0,
+    1
+   ]
+  },
+  "grpc": {
+   "label": "gRPC",
+   "type": "technology",
+   "chunk_ids": [
+    0,
+    1
+   ]
+  },
+  "kafka": {
+   "label": "Kafka",
+   "type": "technology",
+   "chunk_ids": [
+    0,
+    1,
+    9
+   ]
+  },
+  "nats": {
+   "label": "NATS",
+   "type": "technology",
+   "chunk_ids": [
+    0,
+    1,
+    9
+   ]
+  },
+  "rabbitmq": {
+   "label": "RabbitMQ",
+   "type": "technology",
+   "chunk_ids": [
+    0,
+    1,
+    9
+   ]
+  },
+  "pwa": {
+   "label": "PWA",
+   "type": "feature",
+   "chunk_ids": [
+    0
+   ]
+  },
+  "frontend": {
+   "label": "Frontend",
+   "type": "concept",
+   "chunk_ids": [
+    0
+   ]
+  },
+  "backend": {
+   "label": "Backend",
+   "type": "concept",
+   "chunk_ids": [
+    0
+   ]
+  },
+  "api gateway": {
+   "label": "API Gateway",
+   "type": "technology",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "postgresql": {
+   "label": "PostgreSQL",
+   "type": "table",
+   "chunk_ids": [
+    1,
+    7,
+    8
+   ]
+  },
+  "redis": {
+   "label": "Redis",
+   "type": "table",
+   "chunk_ids": [
+    1,
+    8
+   ]
+  },
+  "elasticsearch": {
+   "label": "Elasticsearch",
+   "type": "table",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "clickhouse": {
+   "label": "ClickHouse",
+   "type": "table",
+   "chunk_ids": [
+    1,
+    6,
+    7
+   ]
+  },
+  "s3 compatible object storage": {
+   "label": "S3-compatible object storage",
+   "type": "table",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "cdn": {
+   "label": "CDN",
+   "type": "technology",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "docker": {
+   "label": "Docker",
+   "type": "technology",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "kubernetes": {
+   "label": "Kubernetes",
+   "type": "technology",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "vault": {
+   "label": "Vault",
+   "type": "technology",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "github actions": {
+   "label": "GitHub Actions",
+   "type": "technology",
+   "chunk_ids": [
+    1,
+    2
+   ]
+  },
+  "gitlab ci": {
+   "label": "GitLab CI",
+   "type": "technology",
+   "chunk_ids": [
+    1,
+    2
+   ]
+  },
+  "users": {
+   "label": "users",
+   "type": "concept",
+   "chunk_ids": [
+    1,
+    2,
+    7,
+    8
+   ]
+  },
+  "playlists": {
+   "label": "playlists",
+   "type": "concept",
+   "chunk_ids": [
+    1,
+    3,
+    7,
+    8,
+    11
+   ]
+  },
+  "subscriptions": {
+   "label": "subscriptions",
+   "type": "concept",
+   "chunk_ids": [
+    1,
+    5,
+    7,
+    8
+   ]
+  },
+  "caching": {
+   "label": "caching",
+   "type": "concept",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "sessions": {
+   "label": "sessions",
+   "type": "concept",
+   "chunk_ids": [
+    1,
+    2
+   ]
+  },
+  "full text search": {
+   "label": "full-text search",
+   "type": "concept",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "analytics events": {
+   "label": "analytics events",
+   "type": "concept",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "audio": {
+   "label": "audio",
+   "type": "concept",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "images": {
+   "label": "images",
+   "type": "concept",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "asset delivery": {
+   "label": "asset delivery",
+   "type": "concept",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "audio delivery": {
+   "label": "audio delivery",
+   "type": "concept",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "infrastructure devops": {
+   "label": "Infrastructure & DevOps",
+   "type": "concept",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "secrets manager": {
+   "label": "Secrets Manager",
+   "type": "concept",
+   "chunk_ids": [
+    1
+   ]
+  },
+  "ci cd": {
+   "label": "CI/CD",
+   "type": "concept",
+   "chunk_ids": [
+    1,
+    2
+   ]
+  },
+  "vault secrets manager": {
+   "label": "Vault / Secrets Manager",
+   "type": "technology",
+   "chunk_ids": [
+    2
+   ]
+  },
+  "prometheus": {
+   "label": "Prometheus",
+   "type": "technology",
+   "chunk_ids": [
+    2
+   ]
+  },
+  "grafana": {
+   "label": "Grafana",
+   "type": "technology",
+   "chunk_ids": [
+    2
+   ]
+  },
+  "opentelemetry": {
+   "label": "OpenTelemetry",
+   "type": "technology",
+   "chunk_ids": [
+    2
+   ]
+  },
+  "api gateway backend for frontend bff": {
+   "label": "API Gateway / Backend for Frontend (BFF)",
+   "type": "service",
+   "chunk_ids": [
+    2
+   ]
+  },
+  "auth identity service": {
+   "label": "Auth & Identity Service",
+   "type": "service",
+   "chunk_ids": [
+    2
+   ]
+  },
+  "user profile service": {
+   "label": "User Profile Service",
+   "type": "service",
+   "chunk_ids": [
+    2
+   ]
+  },
+  "credentials": {
+   "label": "credentials",
+   "type": "table",
+   "chunk_ids": [
+    2
+   ]
+  },
+  "devices": {
+   "label": "devices",
+   "type": "table",
+   "chunk_ids": [
+    2,
+    4
+   ]
+  },
+  "user profile": {
+   "label": "user_profile",
+   "type": "table",
+   "chunk_ids": [
+    2,
+    3
+   ]
+  },
+  "user settings": {
+   "label": "user_settings",
+   "type": "table",
+   "chunk_ids": [
+    2,
+    3
+   ]
+  },
+  "observability": {
+   "label": "Observability",
+   "type": "concept",
+   "chunk_ids": [
+    2
+   ]
+  },
+  "user preferences": {
+   "label": "User preferences",
+   "type": "feature",
+   "chunk_ids": [
+    3
+   ]
+  },
+  "catalog service": {
+   "label": "Catalog Service",
+   "type": "service",
+   "chunk_ids": [
+    3
+   ]
+  },
+  "artists": {
+   "label": "artists",
+   "type": "table",
+   "chunk_ids": [
+    3,
+    8,
+    11
+   ]
+  },
+  "albums": {
+   "label": "albums",
+   "type": "table",
+   "chunk_ids": [
+    3,
+    8,
+    11
+   ]
+  },
+  "tracks": {
+   "label": "tracks",
+   "type": "table",
+   "chunk_ids": [
+    3,
+    8
+   ]
+  },
+  "genres": {
+   "label": "genres",
+   "type": "table",
+   "chunk_ids": [
+    3
+   ]
+  },
+  "moods": {
+   "label": "moods",
+   "type": "table",
+   "chunk_ids": [
+    3
+   ]
+  },
+  "track audio files": {
+   "label": "track_audio_files",
+   "type": "table",
+   "chunk_ids": [
+    3
+   ]
+  },
+  "search discovery index service": {
+   "label": "Search & Discovery Index Service",
+   "type": "service",
+   "chunk_ids": [
+    3
+   ]
+  },
+  "playlist tracks": {
+   "label": "playlist_tracks",
+   "type": "table",
+   "chunk_ids": [
+    3
+   ]
+  },
+  "user liked tracks": {
+   "label": "user_liked_tracks",
+   "type": "table",
+   "chunk_ids": [
+    3
+   ]
+  },
+  "user saved albums": {
+   "label": "user_saved_albums",
+   "type": "table",
+   "chunk_ids": [
+    3
+   ]
+  },
+  "user followed artists": {
+   "label": "user_followed_artists",
+   "type": "table",
+   "chunk_ids": [
+    3,
+    4
+   ]
+  },
+  "user followed playlists": {
+   "label": "user_followed_playlists",
+   "type": "table",
+   "chunk_ids": [
+    3,
+    4
+   ]
+  },
+  "elasticsearch opensearch": {
+   "label": "Elasticsearch/OpenSearch",
+   "type": "technology",
+   "chunk_ids": [
+    3,
+    8
+   ]
+  },
+  "podcasts": {
+   "label": "podcasts",
+   "type": "concept",
+   "chunk_ids": [
+    3,
+    6,
+    8
+   ]
+  },
+  "library playlist service": {
+   "label": "Library & Playlist Service",
+   "type": "concept",
+   "chunk_ids": [
+    3
+   ]
+  },
+  "playback session service": {
+   "label": "Playback & Session Service",
+   "type": "service",
+   "chunk_ids": [
+    4
+   ]
+  },
+  "streaming media delivery service": {
+   "label": "Streaming / Media Delivery Service",
+   "type": "service",
+   "chunk_ids": [
+    4
+   ]
+  },
+  "recommendation personalization service": {
+   "label": "Recommendation & Personalization Service",
+   "type": "service",
+   "chunk_ids": [
+    4
+   ]
+  },
+  "social activity service": {
+   "label": "Social & Activity Service",
+   "type": "service",
+   "chunk_ids": [
+    4,
+    5
+   ]
+  },
+  "playback sessions": {
+   "label": "playback_sessions",
+   "type": "table",
+   "chunk_ids": [
+    4
+   ]
+  },
+  "playback queue": {
+   "label": "playback_queue",
+   "type": "table",
+   "chunk_ids": [
+    4
+   ]
+  },
+  "recommendations service": {
+   "label": "Recommendations Service",
+   "type": "service",
+   "chunk_ids": [
+    5
+   ]
+  },
+  "subscription billing service": {
+   "label": "Subscription & Billing Service",
+   "type": "service",
+   "chunk_ids": [
+    5
+   ]
+  },
+  "ads service": {
+   "label": "Ads Service",
+   "type": "service",
+   "chunk_ids": [
+    5
+   ]
+  },
+  "plans": {
+   "label": "plans",
+   "type": "table",
+   "chunk_ids": [
+    5
+   ]
+  },
+  "invoices": {
+   "label": "invoices",
+   "type": "table",
+   "chunk_ids": [
+    5
+   ]
+  },
+  "payment methods": {
+   "label": "payment_methods",
+   "type": "table",
+   "chunk_ids": [
+    5
+   ]
+  },
+  "ad campaigns": {
+   "label": "ad_campaigns",
+   "type": "table",
+   "chunk_ids": [
+    5,
+    6
+   ]
+  },
+  "ad creatives": {
+   "label": "ad_creatives",
+   "type": "table",
+   "chunk_ids": [
+    5,
+    6
+   ]
+  },
+  "ad impressions": {
+   "label": "ad_impressions",
+   "type": "table",
+   "chunk_ids": [
+    5,
+    6
+   ]
+  },
+  "ad events": {
+   "label": "ad_events",
+   "type": "table",
+   "chunk_ids": [
+    5,
+    6
+   ]
+  },
+  "content ingestion creator portal service": {
+   "label": "Content Ingestion & Creator Portal Service",
+   "type": "service",
+   "chunk_ids": [
+    6
+   ]
+  },
+  "uploads": {
+   "label": "uploads",
+   "type": "table",
+   "chunk_ids": [
+    6
+   ]
+  },
+  "rights": {
+   "label": "rights",
+   "type": "table",
+   "chunk_ids": [
+    6
+   ]
+  },
+  "creator profiles": {
+   "label": "creator_profiles",
+   "type": "table",
+   "chunk_ids": [
+    6
+   ]
+  },
+  "episodes": {
+   "label": "episodes",
+   "type": "table",
+   "chunk_ids": [
+    6
+   ]
+  },
+  "media processor service": {
+   "label": "Media Processor Service",
+   "type": "service",
+   "chunk_ids": [
+    6
+   ]
+  },
+  "ffmpeg": {
+   "label": "FFmpeg",
+   "type": "technology",
+   "chunk_ids": [
+    6
+   ]
+  },
+  "analytics events service": {
+   "label": "Analytics & Events Service",
+   "type": "service",
+   "chunk_ids": [
+    6
+   ]
+  },
+  "central ingestion point": {
+   "label": "Central ingestion point",
+   "type": "service",
+   "chunk_ids": [
+    7
+   ]
+  },
+  "recommendation service": {
+   "label": "Recommendation Service",
+   "type": "service",
+   "chunk_ids": [
+    7
+   ]
+  },
+  "notification service": {
+   "label": "Notification Service",
+   "type": "service",
+   "chunk_ids": [
+    7
+   ]
+  },
+  "admin backoffice service": {
+   "label": "Admin & Backoffice Service",
+   "type": "service",
+   "chunk_ids": [
+    7
+   ]
+  },
+  "profiles": {
+   "label": "profiles",
+   "type": "table",
+   "chunk_ids": [
+    7,
+    8
+   ]
+  },
+  "follows": {
+   "label": "follows",
+   "type": "table",
+   "chunk_ids": [
+    7,
+    8
+   ]
+  },
+  "clickhouse data warehouse": {
+   "label": "ClickHouse / Data Warehouse",
+   "type": "technology",
+   "chunk_ids": [
+    8
+   ]
+  },
+  "object storage s3 like cdn": {
+   "label": "Object Storage (S3-like) + CDN",
+   "type": "technology",
+   "chunk_ids": [
+    8
+   ]
+  },
+  "playback events": {
+   "label": "playback events",
+   "type": "feature",
+   "chunk_ids": [
+    8
+   ]
+  },
+  "search events": {
+   "label": "search events",
+   "type": "feature",
+   "chunk_ids": [
+    8
+   ]
+  },
+  "aggregations": {
+   "label": "aggregations",
+   "type": "feature",
+   "chunk_ids": [
+    8
+   ]
+  },
+  "authentication session cache": {
+   "label": "authentication/session cache",
+   "type": "concept",
+   "chunk_ids": [
+    8
+   ]
+  },
+  "playback state cache": {
+   "label": "playback state cache",
+   "type": "concept",
+   "chunk_ids": [
+    8
+   ]
+  },
+  "rate limits": {
+   "label": "rate limits",
+   "type": "concept",
+   "chunk_ids": [
+    8
+   ]
+  },
+  "hot metadata caches": {
+   "label": "hot metadata caches",
+   "type": "concept",
+   "chunk_ids": [
+    8
+   ]
+  },
+  "full text index": {
+   "label": "full-text index",
+   "type": "concept",
+   "chunk_ids": [
+    8
+   ]
+  },
+  "autocomplete index": {
+   "label": "autocomplete index",
+   "type": "concept",
+   "chunk_ids": [
+    8
+   ]
+  },
+  "suggestion index": {
+   "label": "suggestion index",
+   "type": "concept",
+   "chunk_ids": [
+    8
+   ]
+  },
+  "hls segments": {
+   "label": "HLS segments",
+   "type": "concept",
+   "chunk_ids": [
+    8,
+    9
+   ]
+  },
+  "cover images": {
+   "label": "cover images",
+   "type": "concept",
+   "chunk_ids": [
+    8,
+    9
+   ]
+  },
+  "avatars": {
+   "label": "avatars",
+   "type": "concept",
+   "chunk_ids": [
+    8,
+    9
+   ]
+  },
+  "thumbnails": {
+   "label": "thumbnails",
+   "type": "concept",
+   "chunk_ids": [
+    8,
+    9
+   ]
+  },
+  "podcast episodes": {
+   "label": "podcast episodes",
+   "type": "concept",
+   "chunk_ids": [
+    8,
+    9
+   ]
+  },
+  "manifests": {
+   "label": "manifests",
+   "type": "feature",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "message queue": {
+   "label": "Message Queue",
+   "type": "technology",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "track uploaded": {
+   "label": "track_uploaded",
+   "type": "concept",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "track encoded": {
+   "label": "track_encoded",
+   "type": "concept",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "playback event": {
+   "label": "playback_event",
+   "type": "concept",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "subscription updated": {
+   "label": "subscription_updated",
+   "type": "concept",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "notification events": {
+   "label": "notification events",
+   "type": "concept",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "frontend structure": {
+   "label": "Frontend Structure",
+   "type": "concept",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "landing marketing page": {
+   "label": "Landing/marketing page",
+   "type": "feature",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "auth": {
+   "label": "Auth",
+   "type": "feature",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "public artist view": {
+   "label": "Public artist view",
+   "type": "feature",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "public album view": {
+   "label": "Public album view",
+   "type": "feature",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "personalized home feed": {
+   "label": "Personalized home feed",
+   "type": "feature",
+   "chunk_ids": [
+    9,
+    12
+   ]
+  },
+  "full search ui": {
+   "label": "Full search UI",
+   "type": "feature",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "liked songs": {
+   "label": "Liked songs",
+   "type": "feature",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "user playlists": {
+   "label": "User playlists",
+   "type": "feature",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "saved albums": {
+   "label": "Saved albums",
+   "type": "feature",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "followed artists": {
+   "label": "Followed artists",
+   "type": "feature",
+   "chunk_ids": [
+    9
+   ]
+  },
+  "playlist details play": {
+   "label": "Playlist details & play",
+   "type": "feature",
+   "chunk_ids": [
+    9,
+    10
+   ]
+  },
+  "queue detail": {
+   "label": "Queue detail",
+   "type": "feature",
+   "chunk_ids": [
+    9,
+    10
+   ]
+  },
+  "account info": {
+   "label": "Account info",
+   "type": "feature",
+   "chunk_ids": [
+    10
+   ]
+  },
+  "plan billing": {
+   "label": "Plan & billing",
+   "type": "feature",
+   "chunk_ids": [
+    10
+   ]
+  },
+  "content privacy preferences": {
+   "label": "Content & privacy preferences",
+   "type": "feature",
+   "chunk_ids": [
+    10
+   ]
+  },
+  "creator portal": {
+   "label": "Creator portal",
+   "type": "concept",
+   "chunk_ids": [
+    10
+   ]
+  },
+  "admin dashboard": {
+   "label": "Admin dashboard",
+   "type": "feature",
+   "chunk_ids": [
+    10
+   ]
+  },
+  "persistent bottom player bar": {
+   "label": "Persistent bottom player bar",
+   "type": "feature",
+   "chunk_ids": [
+    10
+   ]
+  },
+  "left navigation": {
+   "label": "Left navigation",
+   "type": "feature",
+   "chunk_ids": [
+    10
+   ]
+  },
+  "top bar": {
+   "label": "Top bar",
+   "type": "feature",
+   "chunk_ids": [
+    10
+   ]
+  },
+  "queue now playing side panel": {
+   "label": "Queue / Now Playing side panel",
+   "type": "feature",
+   "chunk_ids": [
+    10
+   ]
+  },
+  "user auth": {
+   "label": "User & Auth",
+   "type": "concept",
+   "chunk_ids": [
+    10
+   ]
+  },
+  "email password auth social login": {
+   "label": "Email/password auth & social login",
+   "type": "feature",
+   "chunk_ids": [
+    10
+   ]
+  },
+  "email verification password reset": {
+   "label": "Email verification & password reset",
+   "type": "feature",
+   "chunk_ids": [
+    10,
+    11
+   ]
+  },
+  "profile editing": {
+   "label": "Profile editing",
+   "type": "feature",
+   "chunk_ids": [
+    10,
+    11
+   ]
+  },
+  "preferences": {
+   "label": "Preferences",
+   "type": "feature",
+   "chunk_ids": [
+    10,
+    11
+   ]
+  },
+  "device management": {
+   "label": "Device management",
+   "type": "feature",
+   "chunk_ids": [
+    11
+   ]
+  },
+  "playback player": {
+   "label": "Playback & Player",
+   "type": "service",
+   "chunk_ids": [
+    11
+   ]
+  },
+  "library playlists": {
+   "label": "Library & Playlists",
+   "type": "service",
+   "chunk_ids": [
+    11
+   ]
+  },
+  "catalog browsing": {
+   "label": "Catalog & Browsing",
+   "type": "service",
+   "chunk_ids": [
+    11
+   ]
+  },
+  "liked songs collection": {
+   "label": "Liked songs collection",
+   "type": "feature",
+   "chunk_ids": [
+    11
+   ]
+  },
+  "detailed artist pages": {
+   "label": "Detailed artist pages",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "album pages": {
+   "label": "Album pages",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "browse by genres moods": {
+   "label": "Browse by genres & moods",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "new releases and charts": {
+   "label": "New releases and charts",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "podcasts episodes": {
+   "label": "Podcasts & episodes",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "unified search": {
+   "label": "Unified search",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "autocomplete suggestions": {
+   "label": "Autocomplete suggestions",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "search history": {
+   "label": "Search history",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "filter by content type": {
+   "label": "Filter by content type",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "because you listened to x rows": {
+   "label": "Because you listened to X rows",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "song radio": {
+   "label": "Song Radio",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "artist radio": {
+   "label": "Artist Radio",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "daily mix style playlists": {
+   "label": "Daily Mix-style playlists",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "weekly discovery playlist": {
+   "label": "Weekly discovery playlist",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "follow users": {
+   "label": "Follow users",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "friend activity feed": {
+   "label": "Friend activity feed",
+   "type": "feature",
+   "chunk_ids": [
+    12
+   ]
+  },
+  "collaborative playlists": {
+   "label": "Collaborative playlists",
+   "type": "feature",
+   "chunk_ids": [
+    12,
+    13
+   ]
+  },
+  "share links": {
+   "label": "Share links",
+   "type": "feature",
+   "chunk_ids": [
+    12,
+    13
+   ]
+  },
+  "embeddable mini player": {
+   "label": "embeddable mini-player",
+   "type": "feature",
+   "chunk_ids": [
+    13
+   ]
+  },
+  "subscription": {
+   "label": "Subscription",
+   "type": "concept",
+   "chunk_ids": [
+    13
+   ]
+  },
+  "free tier": {
+   "label": "Free tier",
+   "type": "feature",
+   "chunk_ids": [
+    13
+   ]
+  },
+  "premium tier": {
+   "label": "Premium tier",
+   "type": "feature",
+   "chunk_ids": [
+    13
+   ]
+  },
+  "payment integration": {
+   "label": "Payment integration",
+   "type": "technology",
+   "chunk_ids": [
+    13
+   ]
+  },
+  "plan change flows": {
+   "label": "Plan change flows",
+   "type": "feature",
+   "chunk_ids": [
+    13
+   ]
+  },
+  "billing history": {
+   "label": "Billing history",
+   "type": "feature",
+   "chunk_ids": [
+    13
+   ]
+  },
+  "ads": {
+   "label": "Ads",
+   "type": "feature",
+   "chunk_ids": [
+    13
+   ]
+  },
+  "creator label portal": {
+   "label": "Creator / Label Portal",
+   "type": "feature",
+   "chunk_ids": [
+    13
+   ]
+  },
+  "artist label onboarding": {
+   "label": "Artist/label onboarding",
+   "type": "feature",
+   "chunk_ids": [
+    13
+   ]
+  },
+  "track and album upload flows": {
+   "label": "Track and album upload flows",
+   "type": "feature",
+   "chunk_ids": [
+    13,
+    14
+   ]
+  },
+  "metadata management": {
+   "label": "Metadata management",
+   "type": "feature",
+   "chunk_ids": [
+    13,
+    14
+   ]
+  },
+  "bulk uploads": {
+   "label": "Bulk uploads",
+   "type": "feature",
+   "chunk_ids": [
+    13,
+    14
+   ]
+  },
+  "feature": {
+   "label": "feature",
+   "type": "concept",
+   "chunk_ids": [
+    13
+   ]
+  },
+  "concept": {
+   "label": "concept",
+   "type": "concept",
+   "chunk_ids": [
+    13
+   ]
+  },
+  "technology": {
+   "label": "technology",
+   "type": "concept",
+   "chunk_ids": [
+    13
+   ]
+  },
+  "analytics dashboard": {
+   "label": "Analytics dashboard",
+   "type": "feature",
+   "chunk_ids": [
+    14
+   ]
+  },
+  "admin moderation": {
+   "label": "Admin / Moderation",
+   "type": "feature",
+   "chunk_ids": [
+    14
+   ]
+  },
+  "search inspect users and content": {
+   "label": "Search / inspect users and content",
+   "type": "feature",
+   "chunk_ids": [
+    14
+   ]
+  },
+  "ban suspend accounts": {
+   "label": "Ban/suspend accounts",
+   "type": "feature",
+   "chunk_ids": [
+    14
+   ]
+  },
+  "takedown and restore content": {
+   "label": "Takedown and restore content",
+   "type": "feature",
+   "chunk_ids": [
+    14
+   ]
+  },
+  "abuse reports queue": {
+   "label": "Abuse reports queue",
+   "type": "feature",
+   "chunk_ids": [
+    14
+   ]
+  },
+  "feature flags and a b tests": {
+   "label": "Feature flags and A/B tests",
+   "type": "feature",
+   "chunk_ids": [
+    14
+   ]
+  },
+  "system status and error monitoring": {
+   "label": "System status and error monitoring",
+   "type": "feature",
+   "chunk_ids": [
+    14
+   ]
+  },
+  "analytics reporting": {
+   "label": "Analytics & Reporting",
+   "type": "feature",
+   "chunk_ids": [
+    14
+   ]
+  },
+  "event tracking": {
+   "label": "Event tracking",
+   "type": "feature",
+   "chunk_ids": [
+    14
+   ]
+  },
+  "dau mau metrics": {
+   "label": "DAU/MAU metrics",
+   "type": "feature",
+   "chunk_ids": [
+    14
+   ]
+  },
+  "track and playlist level performance analytics": {
+   "label": "Track- and playlist-level performance analytics",
+   "type": "feature",
+   "chunk_ids": [
+    14
+   ]
+  },
+  "creator and label facing analytics": {
+   "label": "Creator- and label-facing analytics",
+   "type": "feature",
+   "chunk_ids": [
+    14
+   ]
+  },
+  "internal dashboards": {
+   "label": "Internal dashboards",
+   "type": "feature",
+   "chunk_ids": [
+    14,
+    15
+   ]
+  },
+  "security compliance": {
+   "label": "Security & Compliance",
+   "type": "feature",
+   "chunk_ids": [
+    14,
+    15
+   ]
+  },
+  "https everywhere": {
+   "label": "HTTPS everywhere",
+   "type": "technology",
+   "chunk_ids": [
+    14
+   ]
+  },
+  "secure cookies": {
+   "label": "Secure cookies",
+   "type": "technology",
+   "chunk_ids": [
+    14,
+    15
+   ]
+  },
+  "hsts": {
+   "label": "HSTS",
+   "type": "technology",
+   "chunk_ids": [
+    14,
+    15
+   ]
+  },
+  "https": {
+   "label": "HTTPS",
+   "type": "technology",
+   "chunk_ids": [
+    15
+   ]
+  },
+  "input validation": {
+   "label": "Input validation",
+   "type": "feature",
+   "chunk_ids": [
+    15
+   ]
+  },
+  "rate limiting": {
+   "label": "rate limiting",
+   "type": "feature",
+   "chunk_ids": [
+    15
+   ]
+  },
+  "rbac": {
+   "label": "RBAC",
+   "type": "feature",
+   "chunk_ids": [
+    15
+   ]
+  },
+  "gdpr style data export": {
+   "label": "GDPR-style data export",
+   "type": "feature",
+   "chunk_ids": [
+    15
+   ]
+  },
+  "account deletion": {
+   "label": "account deletion",
+   "type": "feature",
+   "chunk_ids": [
+    15
+   ]
+  },
+  "audit logging": {
+   "label": "Audit logging",
+   "type": "feature",
+   "chunk_ids": [
+    15
+   ]
+  },
+  "large scale spotify like web application": {
+   "label": "large-scale Spotify-like web application",
+   "type": "service",
+   "chunk_ids": [
+    15
+   ]
+  },
+  "100 000 daily users": {
+   "label": "100,000+ daily users",
+   "type": "concept",
+   "chunk_ids": [
+    15
+   ]
+  },
+  "product and ops teams": {
+   "label": "product and ops teams",
+   "type": "concept",
+   "chunk_ids": [
+    15
+   ]
+  }
+ },
+ "edges": [
+  {
+   "source": "next js",
+   "target": "frontend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "tailwind css",
+   "target": "frontend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "react query",
+   "target": "frontend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "zustand",
+   "target": "frontend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "hls js",
+   "target": "frontend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "html5 audio",
+   "target": "frontend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "web audio api",
+   "target": "frontend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "oauth2",
+   "target": "frontend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "node js",
+   "target": "backend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "typescript",
+   "target": "backend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "nestjs",
+   "target": "backend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "rest",
+   "target": "backend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "grpc",
+   "target": "backend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "kafka",
+   "target": "backend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "nats",
+   "target": "backend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "rabbitmq",
+   "target": "backend",
+   "relation": "PART_OF",
+   "chunk_id": 0
+  },
+  {
+   "source": "pwa",
+   "target": "frontend",
+   "relation": "PROVIDES",
+   "chunk_id": 0
+  },
+  {
+   "source": "rest",
+   "target": "api gateway",
+   "relation": "USES",
+   "chunk_id": 1
+  },
+  {
+   "source": "grpc",
+   "target": "api gateway",
+   "relation": "USES",
+   "chunk_id": 1
+  },
+  {
+   "source": "kafka",
+   "target": "grpc",
+   "relation": "USES",
+   "chunk_id": 1
+  },
+  {
+   "source": "nats",
+   "target": "grpc",
+   "relation": "USES",
+   "chunk_id": 1
+  },
+  {
+   "source": "rabbitmq",
+   "target": "grpc",
+   "relation": "USES",
+   "chunk_id": 1
+  },
+  {
+   "source": "postgresql",
+   "target": "users",
+   "relation": "STORES_IN",
+   "chunk_id": 1
+  },
+  {
+   "source": "postgresql",
+   "target": "playlists",
+   "relation": "STORES_IN",
+   "chunk_id": 1
+  },
+  {
+   "source": "postgresql",
+   "target": "subscriptions",
+   "relation": "STORES_IN",
+   "chunk_id": 1
+  },
+  {
+   "source": "redis",
+   "target": "caching",
+   "relation": "STORES_IN",
+   "chunk_id": 1
+  },
+  {
+   "source": "redis",
+   "target": "sessions",
+   "relation": "STORES_IN",
+   "chunk_id": 1
+  },
+  {
+   "source": "elasticsearch",
+   "target": "full text search",
+   "relation": "STORES_IN",
+   "chunk_id": 1
+  },
+  {
+   "source": "clickhouse",
+   "target": "analytics events",
+   "relation": "STORES_IN",
+   "chunk_id": 1
+  },
+  {
+   "source": "s3 compatible object storage",
+   "target": "audio",
+   "relation": "STORES_IN",
+   "chunk_id": 1
+  },
+  {
+   "source": "s3 compatible object storage",
+   "target": "images",
+   "relation": "STORES_IN",
+   "chunk_id": 1
+  },
+  {
+   "source": "cdn",
+   "target": "asset delivery",
+   "relation": "PROVIDES",
+   "chunk_id": 1
+  },
+  {
+   "source": "cdn",
+   "target": "audio delivery",
+   "relation": "PROVIDES",
+   "chunk_id": 1
+  },
+  {
+   "source": "docker",
+   "target": "kubernetes",
+   "relation": "USES",
+   "chunk_id": 1
+  },
+  {
+   "source": "kubernetes",
+   "target": "infrastructure devops",
+   "relation": "PART_OF",
+   "chunk_id": 1
+  },
+  {
+   "source": "vault",
+   "target": "secrets manager",
+   "relation": "USES",
+   "chunk_id": 1
+  },
+  {
+   "source": "github actions",
+   "target": "ci cd",
+   "relation": "USES",
+   "chunk_id": 1
+  },
+  {
+   "source": "gitlab ci",
+   "target": "ci cd",
+   "relation": "USES",
+   "chunk_id": 1
+  },
+  {
+   "source": "auth identity service",
+   "target": "users",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 2
+  },
+  {
+   "source": "auth identity service",
+   "target": "credentials",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 2
+  },
+  {
+   "source": "auth identity service",
+   "target": "sessions",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 2
+  },
+  {
+   "source": "auth identity service",
+   "target": "devices",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 2
+  },
+  {
+   "source": "user profile service",
+   "target": "user profile",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 2
+  },
+  {
+   "source": "user profile service",
+   "target": "user settings",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 2
+  },
+  {
+   "source": "api gateway backend for frontend bff",
+   "target": "auth identity service",
+   "relation": "INTEGRATES_WITH",
+   "chunk_id": 2
+  },
+  {
+   "source": "api gateway backend for frontend bff",
+   "target": "user profile service",
+   "relation": "INTEGRATES_WITH",
+   "chunk_id": 2
+  },
+  {
+   "source": "vault secrets manager",
+   "target": "auth identity service",
+   "relation": "PROVIDES",
+   "chunk_id": 2
+  },
+  {
+   "source": "prometheus",
+   "target": "observability",
+   "relation": "INTEGRATES_WITH",
+   "chunk_id": 2
+  },
+  {
+   "source": "grafana",
+   "target": "observability",
+   "relation": "INTEGRATES_WITH",
+   "chunk_id": 2
+  },
+  {
+   "source": "opentelemetry",
+   "target": "observability",
+   "relation": "INTEGRATES_WITH",
+   "chunk_id": 2
+  },
+  {
+   "source": "user preferences",
+   "target": "user profile",
+   "relation": "PART_OF",
+   "chunk_id": 3
+  },
+  {
+   "source": "user preferences",
+   "target": "user settings",
+   "relation": "PART_OF",
+   "chunk_id": 3
+  },
+  {
+   "source": "catalog service",
+   "target": "artists",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "catalog service",
+   "target": "albums",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "catalog service",
+   "target": "tracks",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "catalog service",
+   "target": "genres",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "catalog service",
+   "target": "moods",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "catalog service",
+   "target": "track audio files",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "search discovery index service",
+   "target": "tracks",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "search discovery index service",
+   "target": "albums",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "search discovery index service",
+   "target": "artists",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "search discovery index service",
+   "target": "playlists",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "search discovery index service",
+   "target": "podcasts",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "library playlist service",
+   "target": "playlists",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "library playlist service",
+   "target": "playlist tracks",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "library playlist service",
+   "target": "user liked tracks",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "library playlist service",
+   "target": "user saved albums",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "library playlist service",
+   "target": "user followed artists",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "library playlist service",
+   "target": "user followed playlists",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 3
+  },
+  {
+   "source": "search discovery index service",
+   "target": "elasticsearch opensearch",
+   "relation": "INTEGRATES_WITH",
+   "chunk_id": 3
+  },
+  {
+   "source": "playback session service",
+   "target": "devices",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 4
+  },
+  {
+   "source": "playback session service",
+   "target": "playback sessions",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 4
+  },
+  {
+   "source": "playback session service",
+   "target": "playback queue",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 4
+  },
+  {
+   "source": "streaming media delivery service",
+   "target": "user followed artists",
+   "relation": "PROVIDES",
+   "chunk_id": 4
+  },
+  {
+   "source": "streaming media delivery service",
+   "target": "user followed playlists",
+   "relation": "PROVIDES",
+   "chunk_id": 4
+  },
+  {
+   "source": "recommendation personalization service",
+   "target": "user followed artists",
+   "relation": "PROVIDES",
+   "chunk_id": 4
+  },
+  {
+   "source": "recommendation personalization service",
+   "target": "user followed playlists",
+   "relation": "PROVIDES",
+   "chunk_id": 4
+  },
+  {
+   "source": "social activity service",
+   "target": "user followed artists",
+   "relation": "INTEGRATES_WITH",
+   "chunk_id": 4
+  },
+  {
+   "source": "social activity service",
+   "target": "user followed playlists",
+   "relation": "INTEGRATES_WITH",
+   "chunk_id": 4
+  },
+  {
+   "source": "subscription billing service",
+   "target": "plans",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 5
+  },
+  {
+   "source": "subscription billing service",
+   "target": "subscriptions",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 5
+  },
+  {
+   "source": "subscription billing service",
+   "target": "invoices",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 5
+  },
+  {
+   "source": "subscription billing service",
+   "target": "payment methods",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 5
+  },
+  {
+   "source": "ads service",
+   "target": "ad campaigns",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 5
+  },
+  {
+   "source": "ads service",
+   "target": "ad creatives",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 5
+  },
+  {
+   "source": "ads service",
+   "target": "ad impressions",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 5
+  },
+  {
+   "source": "ads service",
+   "target": "ad events",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 5
+  },
+  {
+   "source": "content ingestion creator portal service",
+   "target": "uploads",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 6
+  },
+  {
+   "source": "content ingestion creator portal service",
+   "target": "rights",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 6
+  },
+  {
+   "source": "content ingestion creator portal service",
+   "target": "creator profiles",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 6
+  },
+  {
+   "source": "content ingestion creator portal service",
+   "target": "podcasts",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 6
+  },
+  {
+   "source": "content ingestion creator portal service",
+   "target": "episodes",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 6
+  },
+  {
+   "source": "media processor service",
+   "target": "ffmpeg",
+   "relation": "USES",
+   "chunk_id": 6
+  },
+  {
+   "source": "media processor service",
+   "target": "content ingestion creator portal service",
+   "relation": "PART_OF",
+   "chunk_id": 6
+  },
+  {
+   "source": "analytics events service",
+   "target": "clickhouse",
+   "relation": "STORES_IN",
+   "chunk_id": 6
+  },
+  {
+   "source": "analytics events service",
+   "target": "content ingestion creator portal service",
+   "relation": "PART_OF",
+   "chunk_id": 6
+  },
+  {
+   "source": "ad campaigns",
+   "target": "analytics events service",
+   "relation": "PART_OF",
+   "chunk_id": 6
+  },
+  {
+   "source": "ad creatives",
+   "target": "analytics events service",
+   "relation": "PART_OF",
+   "chunk_id": 6
+  },
+  {
+   "source": "ad impressions",
+   "target": "analytics events service",
+   "relation": "PART_OF",
+   "chunk_id": 6
+  },
+  {
+   "source": "ad events",
+   "target": "analytics events service",
+   "relation": "PART_OF",
+   "chunk_id": 6
+  },
+  {
+   "source": "central ingestion point",
+   "target": "clickhouse",
+   "relation": "STORES_IN",
+   "chunk_id": 7
+  },
+  {
+   "source": "central ingestion point",
+   "target": "recommendation service",
+   "relation": "PROVIDES",
+   "chunk_id": 7
+  },
+  {
+   "source": "notification service",
+   "target": "admin backoffice service",
+   "relation": "PART_OF",
+   "chunk_id": 7
+  },
+  {
+   "source": "postgresql",
+   "target": "users",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 7
+  },
+  {
+   "source": "postgresql",
+   "target": "profiles",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 7
+  },
+  {
+   "source": "postgresql",
+   "target": "subscriptions",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 7
+  },
+  {
+   "source": "postgresql",
+   "target": "playlists",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 7
+  },
+  {
+   "source": "postgresql",
+   "target": "follows",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 7
+  },
+  {
+   "source": "postgresql",
+   "target": "tracks",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 8
+  },
+  {
+   "source": "postgresql",
+   "target": "albums",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 8
+  },
+  {
+   "source": "postgresql",
+   "target": "artists",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 8
+  },
+  {
+   "source": "postgresql",
+   "target": "podcasts",
+   "relation": "OWNS_TABLE",
+   "chunk_id": 8
+  },
+  {
+   "source": "redis",
+   "target": "authentication session cache",
+   "relation": "PROVIDES",
+   "chunk_id": 8
+  },
+  {
+   "source": "redis",
+   "target": "playback state cache",
+   "relation": "PROVIDES",
+   "chunk_id": 8
+  },
+  {
+   "source": "redis",
+   "target": "rate limits",
+   "relation": "PROVIDES",
+   "chunk_id": 8
+  },
+  {
+   "source": "redis",
+   "target": "hot metadata caches",
+   "relation": "PROVIDES",
+   "chunk_id": 8
+  },
+  {
+   "source": "elasticsearch opensearch",
+   "target": "full text index",
+   "relation": "PROVIDES",
+   "chunk_id": 8
+  },
+  {
+   "source": "elasticsearch opensearch",
+   "target": "autocomplete index",
+   "relation": "PROVIDES",
+   "chunk_id": 8
+  },
+  {
+   "source": "elasticsearch opensearch",
+   "target": "suggestion index",
+   "relation": "PROVIDES",
+   "chunk_id": 8
+  },
+  {
+   "source": "clickhouse data warehouse",
+   "target": "playback events",
+   "relation": "PROVIDES",
+   "chunk_id": 8
+  },
+  {
+   "source": "clickhouse data warehouse",
+   "target": "search events",
+   "relation": "PROVIDES",
+   "chunk_id": 8
+  },
+  {
+   "source": "clickhouse data warehouse",
+   "target": "aggregations",
+   "relation": "PROVIDES",
+   "chunk_id": 8
+  },
+  {
+   "source": "object storage s3 like cdn",
+   "target": "hls segments",
+   "relation": "PROVIDES",
+   "chunk_id": 8
+  },
+  {
+   "source": "object storage s3 like cdn",
+   "target": "cover images",
+   "relation": "PROVIDES",
+   "chunk_id": 8
+  },
+  {
+   "source": "object storage s3 like cdn",
+   "target": "avatars",
+   "relation": "PROVIDES",
+   "chunk_id": 8
+  },
+  {
+   "source": "object storage s3 like cdn",
+   "target": "thumbnails",
+   "relation": "PROVIDES",
+   "chunk_id": 8
+  },
+  {
+   "source": "object storage s3 like cdn",
+   "target": "podcast episodes",
+   "relation": "PROVIDES",
+   "chunk_id": 8
+  },
+  {
+   "source": "message queue",
+   "target": "track uploaded",
+   "relation": "PROVIDES",
+   "chunk_id": 9
+  },
+  {
+   "source": "message queue",
+   "target": "track encoded",
+   "relation": "PROVIDES",
+   "chunk_id": 9
+  },
+  {
+   "source": "message queue",
+   "target": "playback event",
+   "relation": "PROVIDES",
+   "chunk_id": 9
+  },
+  {
+   "source": "message queue",
+   "target": "subscription updated",
+   "relation": "PROVIDES",
+   "chunk_id": 9
+  },
+  {
+   "source": "message queue",
+   "target": "notification events",
+   "relation": "PROVIDES",
+   "chunk_id": 9
+  },
+  {
+   "source": "frontend structure",
+   "target": "next js",
+   "relation": "PART_OF",
+   "chunk_id": 9
+  },
+  {
+   "source": "frontend structure",
+   "target": "landing marketing page",
+   "relation": "PART_OF",
+   "chunk_id": 9
+  },
+  {
+   "source": "frontend structure",
+   "target": "auth",
+   "relation": "PART_OF",
+   "chunk_id": 9
+  },
+  {
+   "source": "frontend structure",
+   "target": "public artist view",
+   "relation": "PART_OF",
+   "chunk_id": 9
+  },
+  {
+   "source": "frontend structure",
+   "target": "public album view",
+   "relation": "PART_OF",
+   "chunk_id": 9
+  },
+  {
+   "source": "frontend structure",
+   "target": "personalized home feed",
+   "relation": "PART_OF",
+   "chunk_id": 9
+  },
+  {
+   "source": "frontend structure",
+   "target": "full search ui",
+   "relation": "PART_OF",
+   "chunk_id": 9
+  },
+  {
+   "source": "frontend structure",
+   "target": "liked songs",
+   "relation": "PART_OF",
+   "chunk_id": 9
+  },
+  {
+   "source": "frontend structure",
+   "target": "user playlists",
+   "relation": "PART_OF",
+   "chunk_id": 9
+  },
+  {
+   "source": "frontend structure",
+   "target": "saved albums",
+   "relation": "PART_OF",
+   "chunk_id": 9
+  },
+  {
+   "source": "frontend structure",
+   "target": "followed artists",
+   "relation": "PART_OF",
+   "chunk_id": 9
+  },
+  {
+   "source": "frontend structure",
+   "target": "playlist details play",
+   "relation": "PART_OF",
+   "chunk_id": 9
+  },
+  {
+   "source": "frontend structure",
+   "target": "queue detail",
+   "relation": "PART_OF",
+   "chunk_id": 9
+  },
+  {
+   "source": "playback player",
+   "target": "email verification password reset",
+   "relation": "PART_OF",
+   "chunk_id": 11
+  },
+  {
+   "source": "playback player",
+   "target": "profile editing",
+   "relation": "PART_OF",
+   "chunk_id": 11
+  },
+  {
+   "source": "playback player",
+   "target": "preferences",
+   "relation": "PART_OF",
+   "chunk_id": 11
+  },
+  {
+   "source": "playback player",
+   "target": "device management",
+   "relation": "PART_OF",
+   "chunk_id": 11
+  },
+  {
+   "source": "library playlists",
+   "target": "playback player",
+   "relation": "PART_OF",
+   "chunk_id": 11
+  },
+  {
+   "source": "library playlists",
+   "target": "liked songs collection",
+   "relation": "PART_OF",
+   "chunk_id": 11
+  },
+  {
+   "source": "library playlists",
+   "target": "playlists",
+   "relation": "PART_OF",
+   "chunk_id": 11
+  },
+  {
+   "source": "library playlists",
+   "target": "albums",
+   "relation": "PART_OF",
+   "chunk_id": 11
+  },
+  {
+   "source": "library playlists",
+   "target": "artists",
+   "relation": "PART_OF",
+   "chunk_id": 11
+  },
+  {
+   "source": "catalog browsing",
+   "target": "playback player",
+   "relation": "PART_OF",
+   "chunk_id": 11
+  },
+  {
+   "source": "collaborative playlists",
+   "target": "feature",
+   "relation": "PART_OF",
+   "chunk_id": 13
+  },
+  {
+   "source": "share links",
+   "target": "feature",
+   "relation": "PART_OF",
+   "chunk_id": 13
+  },
+  {
+   "source": "embeddable mini player",
+   "target": "feature",
+   "relation": "PART_OF",
+   "chunk_id": 13
+  },
+  {
+   "source": "subscription",
+   "target": "concept",
+   "relation": "PART_OF",
+   "chunk_id": 13
+  },
+  {
+   "source": "free tier",
+   "target": "feature",
+   "relation": "PART_OF",
+   "chunk_id": 13
+  },
+  {
+   "source": "premium tier",
+   "target": "feature",
+   "relation": "PART_OF",
+   "chunk_id": 13
+  },
+  {
+   "source": "payment integration",
+   "target": "technology",
+   "relation": "PART_OF",
+   "chunk_id": 13
+  },
+  {
+   "source": "plan change flows",
+   "target": "feature",
+   "relation": "PART_OF",
+   "chunk_id": 13
+  },
+  {
+   "source": "billing history",
+   "target": "feature",
+   "relation": "PART_OF",
+   "chunk_id": 13
+  },
+  {
+   "source": "ads",
+   "target": "feature",
+   "relation": "PART_OF",
+   "chunk_id": 13
+  },
+  {
+   "source": "creator label portal",
+   "target": "feature",
+   "relation": "PART_OF",
+   "chunk_id": 13
+  },
+  {
+   "source": "artist label onboarding",
+   "target": "feature",
+   "relation": "PART_OF",
+   "chunk_id": 13
+  },
+  {
+   "source": "track and album upload flows",
+   "target": "feature",
+   "relation": "PART_OF",
+   "chunk_id": 13
+  },
+  {
+   "source": "metadata management",
+   "target": "feature",
+   "relation": "PART_OF",
+   "chunk_id": 13
+  },
+  {
+   "source": "bulk uploads",
+   "target": "feature",
+   "relation": "PART_OF",
+   "chunk_id": 13
+  },
+  {
+   "source": "track and album upload flows",
+   "target": "admin moderation",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "metadata management",
+   "target": "admin moderation",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "bulk uploads",
+   "target": "admin moderation",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "analytics dashboard",
+   "target": "analytics reporting",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "search inspect users and content",
+   "target": "admin moderation",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "ban suspend accounts",
+   "target": "admin moderation",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "takedown and restore content",
+   "target": "admin moderation",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "abuse reports queue",
+   "target": "admin moderation",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "feature flags and a b tests",
+   "target": "admin moderation",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "system status and error monitoring",
+   "target": "admin moderation",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "event tracking",
+   "target": "analytics reporting",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "dau mau metrics",
+   "target": "analytics reporting",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "track and playlist level performance analytics",
+   "target": "analytics reporting",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "creator and label facing analytics",
+   "target": "analytics reporting",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "internal dashboards",
+   "target": "analytics reporting",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "https everywhere",
+   "target": "security compliance",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "secure cookies",
+   "target": "security compliance",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "hsts",
+   "target": "security compliance",
+   "relation": "PART_OF",
+   "chunk_id": 14
+  },
+  {
+   "source": "internal dashboards",
+   "target": "product and ops teams",
+   "relation": "PART_OF",
+   "chunk_id": 15
+  },
+  {
+   "source": "security compliance",
+   "target": "https",
+   "relation": "PROVIDES",
+   "chunk_id": 15
+  },
+  {
+   "source": "security compliance",
+   "target": "secure cookies",
+   "relation": "PROVIDES",
+   "chunk_id": 15
+  },
+  {
+   "source": "security compliance",
+   "target": "hsts",
+   "relation": "PROVIDES",
+   "chunk_id": 15
+  },
+  {
+   "source": "security compliance",
+   "target": "input validation",
+   "relation": "PROVIDES",
+   "chunk_id": 15
+  },
+  {
+   "source": "security compliance",
+   "target": "rate limiting",
+   "relation": "PROVIDES",
+   "chunk_id": 15
+  },
+  {
+   "source": "security compliance",
+   "target": "rbac",
+   "relation": "PROVIDES",
+   "chunk_id": 15
+  },
+  {
+   "source": "security compliance",
+   "target": "gdpr style data export",
+   "relation": "PROVIDES",
+   "chunk_id": 15
+  },
+  {
+   "source": "security compliance",
+   "target": "account deletion",
+   "relation": "PROVIDES",
+   "chunk_id": 15
+  },
+  {
+   "source": "security compliance",
+   "target": "audit logging",
+   "relation": "PROVIDES",
+   "chunk_id": 15
+  },
+  {
+   "source": "large scale spotify like web application",
+   "target": "100 000 daily users",
+   "relation": "SERVES",
+   "chunk_id": 15
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+# ---------- Secrets (never commit) ----------
+.env
+*.env
+!.env.example
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+env/
+
+# ---------- Local scratch files ----------
+backend/try_pipeline.py
+
+# ---------- Streamlit ----------
+.streamlit/secrets.toml
+
+# ---------- Generated knowledge-base cache (optional) ----------
+# These are rebuilt automatically at startup (~10 s, a fraction of a cent).
+# Keep them committed so the VPS starts instantly; uncomment to ignore them.
+# backend/data/chunks.json
+# backend/data/embeddings.npy
+# backend/data/graph.json
+
+# ---------- Editors / OS ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Logs ----------
+*.log
