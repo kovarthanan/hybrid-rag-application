@@ -23,7 +23,7 @@ class Settings(BaseSettings):
     grounding_threshold: float = 0.5    # min share of answer words found in context
     enable_moderation: bool = True 
 
-    rate_limit_per_min: int = 10     # per visitor
+    rate_limit_per_min: int = 7     # per visitor
     rate_limit_per_day: int = 50     # per visitor
     global_limit_per_min: int = 60   # all visitors combined
 
