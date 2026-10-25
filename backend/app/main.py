@@ -14,6 +14,7 @@ from .llm import LLM, LLMError
 from .retriever import HybridRetriever
 from .schemas import QueryRequest, QueryResponse
 from .vector_store import VectorStore
+from .rate_limit import RateLimiter
 
 state: dict = {}                              # loaded once, shared by all requests
 pool = ThreadPoolExecutor(max_workers=16)     # for parallel guardrail + retrieval
@@ -31,6 +32,11 @@ async def lifespan(app: FastAPI):
         retriever=HybridRetriever(vs, gs, s.top_k),
         guard=Guardrails(),
         llm=LLM(),
+        limiter=RateLimiter([
+            ("per-minute limit", s.rate_limit_per_min, 60, True),
+            ("daily limit", s.rate_limit_per_day, 86_400, True),
+            ("server busy", s.global_limit_per_min, 60, False),
+        ]),
     )
     # Warm up connections so the first real query isn't slow
     try:
@@ -66,7 +72,17 @@ def health():
 
 
 @app.post("/query", response_model=QueryResponse)
-def query(req: QueryRequest):
+def query(req: QueryRequest, request: Request):
+    # Real visitor IP is forwarded by Streamlit (backend is private, so this is trusted)
+    client = request.headers.get("x-client-ip") or (request.client.host if request.client else "unknown")
+    allowed, rule, retry = state["limiter"].check(client[:64])
+    if not allowed:
+        raise HTTPException(
+            status_code=429,
+            detail=f"Too many questions ({rule}). Try again in {retry} seconds.",
+            headers={"Retry-After": str(retry)},
+        )
+
     guard, retriever, llm = state["guard"], state["retriever"], state["llm"]
     t0, timings = time.perf_counter(), {}
 

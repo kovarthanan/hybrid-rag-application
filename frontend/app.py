@@ -23,10 +23,23 @@ def health():
     except Exception:
         return None
 
+def client_ip() -> str:
+    """Visitor's real IP, from the header Traefik adds."""
+    try:
+        xff = st.context.headers.get("X-Forwarded-For", "")
+    except Exception:
+        xff = ""
+    return xff.split(",")[0].strip() or "local"
+
 
 def ask(question: str) -> dict:
     try:
-        r = http().post(f"{BACKEND_URL}/query", json={"question": question}, timeout=60)
+        r = http().post(
+            f"{BACKEND_URL}/query",
+            json={"question": question},
+            headers={"X-Client-IP": client_ip()},
+            timeout=60,
+        )
     except requests.RequestException:
         return {"error": "Backend is not reachable."}
     if r.status_code == 422:
